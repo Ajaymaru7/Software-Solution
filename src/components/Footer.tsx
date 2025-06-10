@@ -139,7 +139,7 @@ export function Footer() {
                 href="https://ajaymaru.vercel.app/"
                 className="text-purple-400 hover:text-purple-300 transition-colors"
               >
-               Ajay Maru
+               Software Solution
               </a>
               . All Rights Reserved.
             </p>
