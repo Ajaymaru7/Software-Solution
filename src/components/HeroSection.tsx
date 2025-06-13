@@ -19,7 +19,7 @@ export function HeroSection() {
           <FadeInLeft>
             <div className="text-white">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              Solutions that scale with your vision{" "}
+              Solutions that scale with your vision,{" "}
                 <span className="text-yellow-300">We build Smarter and Faster.</span>
               </h1>
               <p className="text-lg md:text-xl text-white/90 mb-8 leading-relaxed">
