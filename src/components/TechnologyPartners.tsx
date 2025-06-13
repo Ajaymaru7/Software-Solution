@@ -6,7 +6,7 @@ export function TechnologyPartners() {
   const partners = [
     {
       name: "Python",
-      logo: "/images/Python-logo.png",
+      logo: "/images/Python-Logo.png",
     },
     {
       name: "Django",
