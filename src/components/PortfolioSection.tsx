@@ -77,23 +77,27 @@ export function PortfolioSection() {
       ]
     },
     {
-      id: "IoT Based",
-      title: "Solar Live Monitoring System",
-      category: "IoT Based",
-      description: "The project aimed to demonstrate that the IoT-based monitoring system could effectively track solar energy production and provide valuable insights to users. The results indicated that the system met its objectives by successfully monitoring energy production and providing real-time data, which aligns with the expected outcomes of enhancing solar energy management.",
-      technologies: ["IoT", "ReactJS", "NextJS", "Supabase"],
+      id: "Application Development",
+      title: "AppLight",
+      category: "Application Development",
+      description: "AppLight is your all-in-one cryptocurrency companion—designed for clarity, speed, and security. Whether you're new to crypto or a seasoned investor, LumenVault helps you track, trade, and grow your digital assets with ease. Enjoy real-time market insights, secure multi-wallet support, lightning-fast transactions, and intuitive portfolio analytics—all in one elegant app.",
+      technologies: ["Html5", "CSS3", "Bootstrap"],
       images: [
         {
-          src: "/images/Home2.jpg",
+          src: "/images/applight_home.jpg",
           alt: "Home Page"
         },
         {
-          src: "/images/Dashboard2.jpg",
-          alt: "Project Dashboard"
+          src: "/images/applight_about.jpg",
+          alt: "About Page"
         },
         {
-          src: "/images/monitor.jpg",
-          alt: "Live Monitoring"
+          src: "/images/applight_feature.jpg",
+          alt: "Feature Page"
+        },
+        {
+          src: "/images/applight_contact.jpg",
+          alt: "Contact Page"
         }
       ]
     },
@@ -170,7 +174,7 @@ export function PortfolioSection() {
               Our Portfolio
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Explore our completed projects and see how we've helped businesses with their IT needs
+              Explore our completed projects and see how we've helped businesses with their Ideas
             </p>
           </div>
         </FadeIn>
