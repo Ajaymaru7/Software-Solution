@@ -39,7 +39,7 @@ export function HeroSection() {
             <div className="relative">
               <div className="relative w-full h-96 lg:h-[500px] rounded-2xl overflow-hidden">
                 <img
-                  src="/public/images/Banner.png"
+                  src="/images/Banner.png"
                   alt="IT Professional"
                   className="w-full h-full object-cover"
                 />
