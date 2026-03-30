@@ -143,6 +143,12 @@ export function ContactSection() {
                     className="text-purple-600 hover:text-purple-700"
                   >
                     maruajay603@gmail.com
+                  </a><br/>
+                  <a
+                    href="mailto:nurdin_nh@itsupportbekasi.com"
+                    className="text-purple-600 hover:text-purple-700"
+                  >
+                    prathamjani0607@gmail.com
                   </a>
                 </div>
               </div>
@@ -160,6 +166,14 @@ export function ContactSection() {
                     className="text-green-600 hover:text-green-700"
                   >
                     +91 7990141049
+                  </a>
+                  <a
+                    href="https://wa.me/+918780029983?text=Hello,%20I'm%20interested%20in%20ordering%20the%20services%20you%20provide."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-green-600 hover:text-green-700"
+                  >
+                    +91 8780029983
                   </a>
                 </div>
               </div>

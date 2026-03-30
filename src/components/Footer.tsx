@@ -46,6 +46,14 @@ export function Footer() {
                 >
                   +91 7990141049
                 </a>
+                <a
+                  href="https://wa.me/+918780029983"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  +91 8780029983
+                </a>
               </div>
             </div>
           </div>

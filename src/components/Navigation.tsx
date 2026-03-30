@@ -37,11 +37,13 @@ export function Navigation() {
           <div className="flex-shrink-0">
             <button
               onClick={() => scrollToSection("home")}
-              className={`text-xl font-bold ${
-                isScrolled ? "text-gray-900" : "text-white"
-              }`}
+              className="transition-opacity hover:opacity-80"
             >
-              AJAY MARU
+              <img
+                src="/images/Wix Studioz.png"
+                alt="Wix Studioz Logo"
+                className="h-8 sm:h-10 md:h-12 w-auto"
+              />
             </button>
           </div>
 
