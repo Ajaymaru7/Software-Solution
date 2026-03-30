@@ -77,6 +77,31 @@ export function PortfolioSection() {
       ]
     },
     {
+      id: "Application Development",
+      title: "AppLight",
+      category: "Application Development",
+      description: "AppLight is your all-in-one cryptocurrency companion—designed for clarity, speed, and security. Whether you're new to crypto or a seasoned investor, LumenVault helps you track, trade, and grow your digital assets with ease. Enjoy real-time market insights, secure multi-wallet support, lightning-fast transactions, and intuitive portfolio analytics—all in one elegant app.",
+      technologies: ["Html5", "CSS3", "Bootstrap"],
+      images: [
+        {
+          src: "/images/applight_home.jpg",
+          alt: "Home Page"
+        },
+        {
+          src: "/images/applight_about.jpg",
+          alt: "About Page"
+        },
+        {
+          src: "/images/applight_feature.jpg",
+          alt: "Feature Page"
+        },
+        {
+          src: "/images/applight_contact.jpg",
+          alt: "Contact Page"
+        }
+      ]
+    },
+    {
       id: "UI/UX Design",
       title: "Website Designing",
       category: "UI/UX Design",
@@ -149,7 +174,7 @@ export function PortfolioSection() {
               Our Portfolio
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Explore our completed projects and see how we've helped businesses with their Software needs
+              Explore our completed projects and see how we've helped businesses with their Ideas
             </p>
           </div>
         </FadeIn>

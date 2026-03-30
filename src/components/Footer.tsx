@@ -144,10 +144,10 @@ export function Footer() {
             <p className="text-gray-400 text-sm">
               © 2025{" "}
               <a
-                href="https://ajaymaru.vercel.app/"
+                href="softwaresolution-chi.vercel.app"
                 className="text-purple-400 hover:text-purple-300 transition-colors"
               >
-               Software Solutions
+               Software Solution
               </a>
               . All Rights Reserved.
             </p>
