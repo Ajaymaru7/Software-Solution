@@ -46,6 +46,14 @@ export function Footer() {
                 >
                   +91 7990141049
                 </a>
+                <a
+                  href="https://wa.me/+918780029983"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  +91 8780029983
+                </a>
               </div>
             </div>
           </div>
@@ -139,7 +147,7 @@ export function Footer() {
                 href="https://ajaymaru.vercel.app/"
                 className="text-purple-400 hover:text-purple-300 transition-colors"
               >
-               Ajay Maru
+               Software Solutions
               </a>
               . All Rights Reserved.
             </p>

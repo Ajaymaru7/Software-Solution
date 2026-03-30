@@ -77,27 +77,6 @@ export function PortfolioSection() {
       ]
     },
     {
-      id: "IoT Based",
-      title: "Solar Live Monitoring System",
-      category: "IoT Based",
-      description: "The project aimed to demonstrate that the IoT-based monitoring system could effectively track solar energy production and provide valuable insights to users. The results indicated that the system met its objectives by successfully monitoring energy production and providing real-time data, which aligns with the expected outcomes of enhancing solar energy management.",
-      technologies: ["IoT", "ReactJS", "NextJS", "Supabase"],
-      images: [
-        {
-          src: "/images/Home2.jpg",
-          alt: "Home Page"
-        },
-        {
-          src: "/images/Dashboard2.jpg",
-          alt: "Project Dashboard"
-        },
-        {
-          src: "/images/monitor.jpg",
-          alt: "Live Monitoring"
-        }
-      ]
-    },
-    {
       id: "UI/UX Design",
       title: "Website Designing",
       category: "UI/UX Design",
@@ -170,7 +149,7 @@ export function PortfolioSection() {
               Our Portfolio
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Explore our completed projects and see how we've helped businesses with their IT needs
+              Explore our completed projects and see how we've helped businesses with their Software needs
             </p>
           </div>
         </FadeIn>

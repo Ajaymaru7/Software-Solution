@@ -12,22 +12,22 @@ export function HeroSection() {
   };
 
   return (
-    <section id="home" className="hero-bg min-h-screen flex items-center relative overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    <section id="home" className="hero-bg min-h-screen flex items-center relative overflow-hidden pt-20 sm:pt-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Content */}
           <FadeInLeft>
             <div className="text-white">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+              <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 sm:mb-6">
               Solutions that scale with your vision{" "}
                 <span className="text-yellow-300">We build Smarter and Faster.</span>
               </h1>
-              <p className="text-lg md:text-xl text-white/90 mb-8 leading-relaxed">
+              <p className="text-base sm:text-lg md:text-xl text-white/90 mb-6 sm:mb-8 leading-relaxed">
               We can help you reimagine your business through a digitalized future.
               </p>
               <Button
                 onClick={scrollToServices}
-                className="bg-pink-500 hover:bg-pink-600 text-white px-8 py-6 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105"
+                className="bg-pink-500 hover:bg-pink-600 text-white px-6 sm:px-8 py-4 sm:py-6 text-sm sm:text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105"
               >
                 View Services →
               </Button>
@@ -36,10 +36,10 @@ export function HeroSection() {
 
           {/* Right Content - Professional Image */}
           <FadeInRight>
-            <div className="relative">
+            <div className="relative hidden lg:block">
               <div className="relative w-full h-96 lg:h-[500px] rounded-2xl overflow-hidden">
                 <img
-                  src="/images/Banner.jpeg"
+                  src="/images/Banner.png"
                   alt="IT Professional"
                   className="w-full h-full object-cover"
                 />
